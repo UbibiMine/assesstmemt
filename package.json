@@ -1,0 +1,15 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack student class management system",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["student", "management", "react", "express", "mysql"],
+  "author": "",
+  "license": "MIT"
+}
